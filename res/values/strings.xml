@@ -4,6 +4,6 @@
     <string name="app_name">SimpleCalc</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="results_here">Results here \n and below</string>
+    <string name="results_here">Enter some numbers to get started!</string>
 
 </resources>

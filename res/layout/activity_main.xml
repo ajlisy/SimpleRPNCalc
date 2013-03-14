@@ -9,6 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|top"
         android:layout_marginTop="10dp"
         android:layout_weight="0.29"
         android:text="@string/results_here"
@@ -198,7 +199,12 @@
             android:orientation="horizontal"
             android:paddingLeft="30dp"
             android:paddingRight="30dp" >
-
+			<Button
+                android:id="@+id/buttonAllClear"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:onClick="buttonPress"
+                android:text="CC" />
             <Button
                 android:id="@+id/buttonEnter"
                 android:layout_width="wrap_content"
@@ -209,10 +215,11 @@
 
             <Button
                 android:id="@+id/buttonClear"
-                android:layout_width="wrap_content"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="C" />
+            
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
