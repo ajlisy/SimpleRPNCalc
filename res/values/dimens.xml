@@ -7,5 +7,9 @@
     <!-- Button dimensions -->
     <dimen name="button_width">60dp</dimen>
     <dimen name="button_height">60dp</dimen>
+    
+     <!-- Button dimensions -->
+    <dimen name="button_width_land">55dp</dimen>
+    <dimen name="button_height_land">50dp</dimen>
 
 </resources>
